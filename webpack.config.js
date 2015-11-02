@@ -1,12 +1,12 @@
 module.exports = {
 
   // set the context (optional)
-  context: __dirname + '/src',
+  context: path.join( __dirname, '/src'),
   entry: 'index.js',
 
   // enable loading modules relatively (without the ../../ prefix)
   resolve: {
-    root: [__dirname + "/src"]
+    root: path.join( __dirname, '/src')
   },
 
   module: {

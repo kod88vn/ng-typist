@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "starter project with webpack, angular, es6 and bootstrap",
   "main": "index.js",
+  "babel": {
+    "stage": 1
+  }
   "scripts": {
     "prestart": "npm install",
     "start": "webpack-dev-server",

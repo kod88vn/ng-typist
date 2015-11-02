@@ -5,7 +5,7 @@
   "main": "index.js",
   "babel": {
     "stage": 1
-  }
+  },
   "scripts": {
     "prestart": "npm install",
     "start": "webpack-dev-server",

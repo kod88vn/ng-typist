@@ -15,7 +15,7 @@ module.exports = {
     loaders: [
 
       // load and compile javascript
-      { test: /\.js$/, exclude: /node_modules/, loader:"babel" },
+      { test: /\.js$/, exclude: /node_modules/, loader:"babel", query: { presets: ['es2015', 'stage-1'] } },
 
       // load css and process less
       { test: /\.css$/, loader: "style!css"},

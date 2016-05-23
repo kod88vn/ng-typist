@@ -70,7 +70,8 @@ gulp.task('serve', () => {
     // it responsible for all this webpack magic
     'webpack-hot-middleware/client?reload=true',
     // application entry point
-  ].concat(paths.entry);;
+    ...paths.entry
+  ];
 
   var compiler = webpack(config);
 

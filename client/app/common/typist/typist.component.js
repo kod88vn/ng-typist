@@ -1,10 +1,12 @@
-import template from './typist.html';
+import template from './typist.pug';
 import controller from './typist.controller';
 import './typist.styl';
 
 let typistComponent = {
   restrict: 'E',
-  bindings: {},
+  bindings: {
+  	config: '='
+  },
   template,
   controller,
   controllerAs: 'vm'

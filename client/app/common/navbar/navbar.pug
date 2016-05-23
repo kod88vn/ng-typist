@@ -1,0 +1,5 @@
+ul.nav.nav-tabs
+	li(role='presentation', data-ng-class='{true: "active", false: ""}[navc.isActiveTab("/home")]')
+		a(ui-sref="home") Home
+	li(role='presentation', data-ng-class='{true: "active", false: ""}[navc.isActiveTab("/about")]')
+		a(ui-sref="about") About

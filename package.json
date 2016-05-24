@@ -1,7 +1,7 @@
 {
-  "name": "angular-webpack-starter",
+  "name": "typist",
   "version": "1.0.0",
-  "description": "starter project with webpack, angular, es6 and bootstrap",
+  "description": "angular wrapper for malarkey",
   "main": "index.js",
   "scripts": {
     "prestart": "npm install",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/nirkaufman/angular-webpack-starter.git"
+    "url": "https://github.com/kod88vn/ng-typist.git"
   },
   "keywords": [
     "angularjs",
@@ -20,12 +20,8 @@
     "bootstrap",
     "less"
   ],
-  "author": "Nir Kaufman <nirkaufman@gmail.com>",
+  "author": "Jay Quach <kod88vn@gmail.com>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/nirkaufman/angular-webpack-starter/issues"
-  },
-  "homepage": "https://github.com/nirkaufman/angular-webpack-starter",
   "devDependencies": {},
   "dependencies": {
     "angular": "1.5.0",
@@ -37,6 +33,8 @@
     "file-loader": "0.8.5",
     "json-loader": "0.5.4",
     "node-libs-browser": "1.0.0",
+    "pug": "^2.0.0-alpha8",
+    "pug-html-loader": "^1.0.5",
     "raw-loader": "0.5.1",
     "style-loader": "0.13.0",
     "url-loader": "0.5.7",

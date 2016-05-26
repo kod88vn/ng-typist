@@ -1,6 +1,6 @@
 {
   "name": "ng-typist",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "description": "Angular wrapper for malarkey",
   "main": "index.js",
   "dependencies": {
@@ -16,6 +16,7 @@
     "gulp-rename": "^1.2.2",
     "gulp-sourcemaps": "^1.6.0",
     "gulp-uglify": "^1.5.3",
+    "gulp-webserver": "^0.9.1",
     "jshint": "^2.9.2"
   },
   "scripts": {},

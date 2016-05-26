@@ -1,8 +1,8 @@
-(function(window, module) {
+(function() {
 	'use-strict';
 
 	// load malarkey from our combined js file
-	if(module.exports) {
+	if(typeof(module) !== 'undefined' && module.exports) {
 		malarkey = module.exports;
 	}
 
@@ -36,4 +36,4 @@
 		}
 	});
 
-})(window, module);
+})();

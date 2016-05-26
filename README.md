@@ -8,7 +8,7 @@ Angular wrapper for malarkey - a module to provide typing simulation
 * `npm install` to install dependencies
 
 ## Usage
-1. <script type='text/javascript' src='ng-typist/dist/app.min.js'></script>
+1. `<script type='text/javascript' src='ng-typist/dist/app.min.js'></script>`
 2. angular.module('myApp', ['ng-typist'])
 3. provide a config object
 

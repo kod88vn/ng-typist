@@ -14,13 +14,13 @@ Angular wrapper for malarkey - a module to provide typing simulation
 
 ## Example
 ```javascript
-	$scope.typistConfig = {
-    words: ['Thanks for using ng-typist...', 'Have a nice day!'], 
-    id: 'typist',
-    typeSpeed: 50,
-    deleteSpeed: 50,
-    pauseDelay: 500,
-    loop: true,
-    postfix: ''
-  };
+    $scope.typistConfig = {
+        words: ['Thanks for using ng-typist...', 'Have a nice day!'], 
+        id: 'typist',
+        typeSpeed: 50,
+        deleteSpeed: 50,
+        pauseDelay: 500,
+        loop: true,
+        postfix: ''
+    };
 ```

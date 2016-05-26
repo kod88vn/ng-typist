@@ -24,7 +24,7 @@ gulp.task('jshint', ['clean'], function() {
 gulp.task('concat', function() {
   return gulp.src([
   		'node_modules/malarkey/dist/malarkey.js',
-	  	'src/*.js'
+	  	'src/app.js'
   	])
   	.pipe(concat('app.js'))
   	.pipe(sourcemaps.init())

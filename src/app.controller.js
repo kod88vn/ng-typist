@@ -4,8 +4,7 @@
 	angular.module('ng-typist')
 	.controller('mainController', function() {
 		var vm = this;
-
-		vm.name = 'Typing: something else';
+		
 		vm.typistConfig = {
       words: ['Thanks for using ng-typist...', 'Have a nice day!'], 
       id: 'typist',

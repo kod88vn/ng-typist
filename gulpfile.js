@@ -24,7 +24,7 @@ gulp.task('jshint', ['clean'], function() {
 gulp.task('concat', function() {
   return gulp.src([
   		'node_modules/malarkey/dist/malarkey.js',
-	  	'src/app.js'
+	  	'src/ngTypist.js'
   	])
   	.pipe(concat('app.js'))
   	.pipe(sourcemaps.init())
@@ -57,8 +57,7 @@ gulp.task('webserver', function() {
   gulp.src('./')
     .pipe(webserver({
       livereload: true,
-      directoryListing: true,
-      open: 'http://localhost:8000/index.html'
+      directoryListing: true
     }));
 });
 

@@ -1,7 +1,7 @@
 (function() {
 	'use-strict';
 
-	angular.module('ng-typist')
+	angular.module('app', ['ng-typist'])
 	.controller('mainController', function() {
 		var vm = this;
 		
